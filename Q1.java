@@ -8,7 +8,7 @@ Write a menu driven program which does the following tasks :
 	- Check if a number is odd or even
 	- Exit the program
 	
-~ Once the action is performed, the menu should reappear until the user selects the 4th option
+~ Once the action is performed, the menu should reappear until the user selects the 4th option7
 */
 
 import java.util.Scanner;
@@ -33,7 +33,7 @@ public class Q1
 		for(int i = num;i > 0;i--)
 		{
 			if(num % i == 0)
-			FACTORS += 1;
+			FACTORS++;
 		}
 		
 		if(FACTORS > 2)
