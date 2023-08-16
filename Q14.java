@@ -15,7 +15,7 @@ public class Q14
 		boolean nestNumber = false;
 		
 		System.out.print("Enter a number : ");
-		double num = sc.nextInt();
+		double num = sc.nextDouble();
 		
 		while(num >= 10)
 		{
