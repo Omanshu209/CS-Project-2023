@@ -13,7 +13,7 @@ Rules :
 
 import java.util.Scanner;
 
-public class Q4
+public class Q04
 {
 	public static void main(String args[])
 	{
