@@ -6,7 +6,7 @@ W.A.P to take a character as input from the user and determine whether it is a c
 
 import java.util.Scanner;
 
-public class Q7
+public class Q07
 {
 	static String determineChar(char character)
 	{
