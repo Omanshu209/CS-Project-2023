@@ -5,7 +5,7 @@ W.A.P. to print all the Armstrong numbers between 1 and 500.
 [A number is Armstrong if the sum of the cubes of each digit of the number is equal to the number itself]
 */
 
-public class Q3
+public class Q03
 {
 	static boolean checkArmstrong(double num)
 	{
