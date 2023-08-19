@@ -6,7 +6,7 @@ W.A.P. to enter numbers till the user wants. At the end it should display the co
 
 import java.util.Scanner;
 
-public class Q8
+public class Q08
 {
 	public static void main(String args[])
 	{
