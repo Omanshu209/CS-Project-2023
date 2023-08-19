@@ -13,7 +13,7 @@ Write a menu driven program which does the following tasks :
 
 import java.util.Scanner;
 
-public class Q1
+public class Q01
 {
 	static int factorial(int num)
 	{
