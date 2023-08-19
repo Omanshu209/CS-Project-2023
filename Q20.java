@@ -21,10 +21,6 @@ public class Q20
 		
 		System.out.println();
 		
-		if(Math.sqrt(numbers[0]) % 1 == 0 && Math.sqrt(numbers[1]) % 1 == 0)
-		System.out.println("They are perfect square numbers!");
-		
-		else
 		for(int i = 0;i <= 1;i++)
 		{
 			if(numbers[i] < 0)
