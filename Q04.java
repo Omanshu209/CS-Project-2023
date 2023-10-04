@@ -15,7 +15,7 @@ import java.util.Scanner;
 
 public class Q04
 {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		
@@ -43,7 +43,7 @@ public class Q04
 			matchSticksLeft -= 5;
 			
 			if(matchSticksLeft <= 0)
-			break;
+				break;
 			
 			System.out.println(
 			"Computer picked " + (5 - userInput) + " match stick(s)!\n" + 
