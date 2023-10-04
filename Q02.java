@@ -1,15 +1,15 @@
 /*
 Question 2
 
-W.A.P. to take a number as input from the user and check if it is trimorphic or not.
-[A number is said to be trimorphic if the cube of the number ends in the number itself]
+W.A.P. to accept a number as input from the user and check if it is trimorphic or not.
+[A number is said to be trimorphic if its cube ends in the number itself]
 */
 
 import java.util.Scanner;
 
 public class Q02
 {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		
@@ -24,9 +24,9 @@ public class Q02
 		}
 		
 		if(Math.cbrt(cube) == cube % divider)
-		System.out.println("It is a trimorphic number!");
+			System.out.println("It is a trimorphic number!");
 		
 		else
-		System.out.println("It is not a trimorphic number!");
+			System.out.println("It is not a trimorphic number!");
 	}
 }
