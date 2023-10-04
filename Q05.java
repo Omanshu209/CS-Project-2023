@@ -6,7 +6,7 @@ W.A.P. to print all the ASCII values and their equivalent characters using a whi
 
 public class Q05
 {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		System.out.println("The ASCII values and their equivalent characters are as follows :\n");
 		
