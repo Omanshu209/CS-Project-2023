@@ -37,22 +37,22 @@ public class Q01
 		}
 		
 		if(FACTORS > 2)
-		return(num + " is not a prime number");
+			return(num + " is not a prime number");
 		
 		else
-		return(num + " is a prime number");
+			return(num + " is a prime number");
 	}
 	
 	static String OddOrEven(int num)
 	{
 		if(num % 2 == 0)
-		return(num + " is an even number");
+			return(num + " is an even number");
 		
 		else
-		return(num + " is an odd number");
+			return(num + " is an odd number");
 	}
 	
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		
