@@ -19,20 +19,20 @@ public class Q03
 		}
 		
 		if(sum == originalNum)
-		return true;
+			return true;
 		
 		else
-		return false;
+			return false;
 	}
 	
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
-		System.out.println("All the Armstrong numbers between 1 and 500 are as follows :\n");
+		System.out.println("Armstrong numbers between 1 and 500 :\n");
 		
-		for(int i = 1;i <= 500;i++)
+		for(int i = 1 ; i <= 500 ; i++)
 		{
 			if(checkArmstrong(i))
-			System.out.println(i);
+				System.out.print(i + " , ");
 		}
 	}
 }
