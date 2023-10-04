@@ -1,14 +1,14 @@
 /*
 Question 1
 
-Write a menu driven program which does the following tasks :
+W.A.P. (menu driven) which performs the following tasks :
 
-	- Finding the factorial of a number
-	- Check if a number is prime or not
-	- Check if a number is odd or even
-	- Exit the program
+	- Finds the factorial of a number
+	- Checks if a number is prime or not
+	- Checks if a number is odd or even
+	- Exits the program
 	
-~ Once the action is performed, the menu should reappear until the user selects the 4th option
+Once the operation is performed, the menu should reappear until the user selects the 4th option
 */
 
 import java.util.Scanner;
@@ -46,10 +46,10 @@ public class Q01
 	static String OddOrEven(int num)
 	{
 		if(num % 2 == 0)
-		return(num + " is an even number number");
+		return(num + " is an even number");
 		
 		else
-		return(num + " is an odd number number");
+		return(num + " is an odd number");
 	}
 	
 	public static void main(String args[])
@@ -57,7 +57,7 @@ public class Q01
 		Scanner sc = new Scanner(System.in);
 		
 		int OPTION = 0, NUM = 0;
-		String menu = "Select 1 of the following options : \n\n\t1 - Find the factorial of a number\n\t2 - Check if a number is prime or not\n\t3 - Check if a number is odd or even\n\t4 - Exit";
+		String menu = "MENU : \n\n\t1 - Find the factorial of a number\n\t2 - Check if a number is prime or not\n\t3 - Check if a number is odd or even\n\t4 - Exit";
 		String line = "\n--------------------\n";// for better UI
 		
 		boolean RUN = true;
