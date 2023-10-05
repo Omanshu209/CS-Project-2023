@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Q15
 {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		
@@ -21,18 +21,18 @@ public class Q15
 		while(num > 0)
 		{
 			if(num % 2 == 0)
-			sumOfEvenDigits += num % 10;
+				sumOfEvenDigits += num % 10;
 			
 			else
-			sumOfOddDigits += num % 10;
+				sumOfOddDigits += num % 10;
 			
 			num = Math.floor(num / 10);
 		}
 		
 		if(sumOfOddDigits == sumOfEvenDigits)
-		System.out.println("It is a lead number!");
+			System.out.println("It is a lead number!");
 		
 		else
-		System.out.println("It is not a lead number!");
+			System.out.println("It is not a lead number!");
 	}
 }
