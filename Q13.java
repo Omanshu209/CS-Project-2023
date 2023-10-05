@@ -17,7 +17,7 @@ import java.util.Scanner;
 
 public class Q13
 {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		
@@ -27,27 +27,27 @@ public class Q13
 		System.out.println();
 		
 		if(purchaseAmount < 1100)
-		System.out.println(
-		"Amount to be paid : " + (purchaseAmount - 5.0/100.0 * purchaseAmount) + "\n" +
-		"Gift : A Wallet"
-		);
+			System.out.println(
+			"Amount to be paid : " + (purchaseAmount - 5.0/100.0 * purchaseAmount) + "\n" +
+			"Gift : A Wallet"
+			);
 		
 		else if(purchaseAmount >= 1100 && purchaseAmount < 5100)
-		System.out.println(
-		"Amount to be paid : " + (purchaseAmount - 10.0/100.0 * purchaseAmount) + "\n" +
-		"Gift : A Wrist Amount"
-		);
+			System.out.println(
+			"Amount to be paid : " + (purchaseAmount - 10.0/100.0 * purchaseAmount) + "\n" +
+			"Gift : A Wrist Watch"
+			);
 		
 		else if(purchaseAmount >= 5100 && purchaseAmount < 10100)
-		System.out.println(
-		"Amount to be paid : " + (purchaseAmount - 15.0/100.0 * purchaseAmount) + "\n" +
-		"Gift : A Wall Clock"
-		);
+			System.out.println(
+			"Amount to be paid : " + (purchaseAmount - 15.0/100.0 * purchaseAmount) + "\n" +
+			"Gift : A Wall Clock"
+			);
 		
 		else
-		System.out.println(
-		"Amount to be paid : " + (purchaseAmount - 20.0/100.0 * purchaseAmount) + "\n" +
-		"Gift : A Travel Kit"
-		);
+			System.out.println(
+			"Amount to be paid : " + (purchaseAmount - 20.0/100.0 * purchaseAmount) + "\n" +
+			"Gift : A Travel Kit"
+			);
 	}
 }
