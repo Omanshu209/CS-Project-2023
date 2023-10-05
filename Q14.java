@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Q14
 {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		boolean nestNumber = false;
@@ -28,9 +28,9 @@ public class Q14
 		}
 		
 		if(nestNumber)
-		System.out.println("It is a nest number!");
+			System.out.println("It is a nest number!");
 		
 		else
-		System.out.println("It is not a nest number!");
+			System.out.println("It is not a nest number!");
 	}
 }
