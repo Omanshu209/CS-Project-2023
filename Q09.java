@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 public class Q09
 {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		
@@ -24,12 +24,12 @@ public class Q09
 		int daysLate = sc.nextInt();
 		
 		if(daysLate <= 5)
-		System.out.println("Late fine : " + (daysLate * 10));
+			System.out.println("Late fine : " + (daysLate * 10));
 		
 		else if(daysLate > 5 && daysLate <= 10)
-		System.out.println("Late fine : " + (daysLate * 15));
+			System.out.println("Late fine : " + (daysLate * 15));
 		
 		else
-		System.out.println("Late fine : " + (daysLate * 30));
+			System.out.println("Late fine : " + (daysLate * 30));
 	}
 }
