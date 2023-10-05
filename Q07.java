@@ -13,19 +13,19 @@ public class Q07
 		int ASCII = (int)character;
 		
 		if(ASCII >= 65 && ASCII <= 90)
-		return(character + " is a capital letter");
+			return(character + " is a capital letter");
 		
 		else if(ASCII >= 97 && ASCII <= 122)
-		return(character + " is a small case letter");
+			return(character + " is a small case letter");
 		
 		else if(ASCII >= 48 && ASCII <= 57)
-		return(character + " is a number(digit)");
+			return(character + " is a number(digit)");
 		
 		else
-		return(character + " is a special symbol");
+			return(character + " is a special symbol");
 	}
 	
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		
