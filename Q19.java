@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class Q19
 {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		double maths, science, english;
@@ -38,16 +38,16 @@ public class Q19
 			english = sc.nextDouble();
 			
 			if(maths >= 95 && science >= 95 && english >= 95)
-			highScorers += 1;
+				highScorers += 1;
 			
 			if(maths >= 90)
-			highMathsScorers += 1;
+				highMathsScorers += 1;
 			
 			if(science >= 90)
-			highScienceScorers += 1;
+				highScienceScorers += 1;
 			
 			if(english >= 90)
-			highEnglishScorers += 1;
+				highEnglishScorers += 1;
 			
 			System.out.println();
 		}
