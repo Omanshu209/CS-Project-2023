@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Q08
 {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		
@@ -27,13 +27,13 @@ public class Q08
 			num = sc.nextInt();
 			
 			if(num > 0)
-			positives++;
+				positives++;
 			
 			else if(num < 0)
-			negatives++;
+				negatives++;
 			
 			else
-			zeroes++;
+				zeroes++;
 			
 			LIMIT--;
 		}
