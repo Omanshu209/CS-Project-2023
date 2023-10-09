@@ -38,16 +38,16 @@ public class Q19
 			english = sc.nextDouble();
 			
 			if(maths >= 95 && science >= 95 && english >= 95)
-				highScorers += 1;
+				highScorers++;
 			
 			if(maths >= 90)
-				highMathsScorers += 1;
+				highMathsScorers++;
 			
 			if(science >= 90)
-				highScienceScorers += 1;
+				highScienceScorers++;
 			
 			if(english >= 90)
-				highEnglishScorers += 1;
+				highEnglishScorers++;
 			
 			System.out.println();
 		}
